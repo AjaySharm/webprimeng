@@ -1,0 +1,37 @@
+<h1>
+  {{title}}
+</h1>
+<div id="ajay">
+<button pButton type="button" label="Click" class="btn-green">green </button>
+<button pButton type="button" label="Click">blue</button>
+<button pButton type="button" label="Click">Red</button>
+<input type="text" pInputText [(ngModel)]="property"/><br/>
+
+<p-dataTable [value]="cars">
+    <p-column field="vin" header="Vin"></p-column>
+    <p-column field="year" header="Year"></p-column>
+    <p-column field="brand" header="Brand"></p-column>
+    <p-column field="color" header="Color"></p-column>
+</p-dataTable>
+<p-dataTable >
+    <p-column field="vin" header="sdadsafads"></p-column>
+    <p-column field="year" header="asdfdsfa"></p-column>
+    <p-column field="brand" header="asdfsad"></p-column>
+    <p-column field="color" header="asddsafsdafad"></p-column>
+</p-dataTable>
+<br/>
+<br/>
+<p-tabView>
+    <p-tabPanel header="Header 1">
+       Content 1
+    </p-tabPanel>
+    <p-tabPanel header="Header 2">
+        Content 2
+    </p-tabPanel>
+    <p-tabPanel header="Header 3">
+        Content 3    
+    </p-tabPanel>
+</p-tabView>
+
+
+
